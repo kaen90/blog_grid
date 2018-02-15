@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+	color: #333333;
+}
+.blog{
+	min-width: 100%;
+
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: stretch;
+	flex-wrap: wrap;
+	background-color: #e2e7ec;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 90px;
+	padding-bottom: 100px;
+}
+.block1{
+	min-width: 63%;
+	height: 540px;
+	background-image: url("image/blog1-bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 20px;
+}
+.block1 .first-data{
+	padding: 400px 40px 15px;
+}
+.first-data p{
+	font: 400 13px/1.0 "Arial";
+	color: #ffffff;
+}
+.block1 .title{
+	padding-bottom: 20px;
+	padding-left: 40px;
+	width: 60%;
+}
+.title h2{
+	font: 700 30px/1.2 "Arial";
+	color: #ffffff;
+}
+.block{
+	min-width: 30%;
+	height: 540px;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+}
+.head-image img{
+	width: 100%;
+}
+.data p{
+	padding: 30px 30px 20px;
+	font: 500 13px/1.0 "Arial";
+	color: #818181;
+}
+
+.title-block h2{
+	width: 80%;
+	margin-left: 30px;
+	margin-bottom: 60px;
+	font: 700 22px/1.2 "Arial";
+}
+.author-image{
+	width: 54px;
+	height: 54px;
+	margin-bottom: 20px;
+	margin-left: 30px;
+}
